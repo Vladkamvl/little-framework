@@ -10,12 +10,8 @@ use \Core\Application;
 
 $app = new Application();
 
-$app->router->get('/', function(){
-    return 'index';
-});
+$app->router->get('/', 'home');
 
-$app->router->get('/contact', function(){
-    return 'contact';
-});
+$app->router->get('/contact', 'contact');
 $app->router->get('/mobile', ['Mobile::class', 'mobile_method']);
 $app->run();
