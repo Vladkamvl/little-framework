@@ -1,0 +1,16 @@
+{
+  "name": "Vladkamvl/testFramework",
+  "authors": [
+    {
+      "name": "vlad"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Core\\": "core"
+    }
+  },
+  "require": {
+
+  }
+}
