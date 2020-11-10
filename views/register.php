@@ -14,7 +14,14 @@
     </div>
     <div class="form-group">
         <label for="exampleInputPassword1">Confirm Password</label>
-        <input type="password" class="form-control" name=confirmPassword">
+        <input type="password" class="form-control" name="confirmPassword">
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>
+<?php
+
+if(isset($errors)){
+    vd($errors);
+}
+
+?>
